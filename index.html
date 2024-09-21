@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reader's Club - Explore, Discuss, Grow</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+   
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="#home">📚 Reader's Club</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#current-reads">Current Reads</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#upcoming">Upcoming Meetings</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#book-of-month">Book of the Month</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#join">Join Us</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div id="homeCarousel" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#homeCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#homeCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#homeCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active" style="background-image: url('images/pexels-pixabay-301920.jpg');">
+                <div class="carousel-caption">
+                    <h1>Welcome to Reader's Club</h1>
+                    <p>Explore new worlds, one page at a time</p>
+                    <a href="#join" class="btn btn-lg cta-button">Join Our Community</a>
+                </div>
+            </div>
+            <div class="carousel-item" style="background-image: url('images/pexels-rafael-cosquiere-1059286-2041540.jpg');">
+                <div class="carousel-caption">
+                    <h1>Discover Great Books</h1>
+                    <p>Expand your horizons with our carefully curated selections</p>
+                    <a href="#current-reads" class="btn btn-lg cta-button">View Current Reads</a>
+                </div>
+            </div>
+            <div class="carousel-item" style="background-image: url('images/pexels-cottonbro-6344231.jpg');">
+                <div class="carousel-caption">
+                    <h1>Connect with Fellow Readers</h1>
+                    <p>Join our vibrant community of book lovers</p>
+                    <a href="#upcoming" class="btn btn-lg cta-button">See Upcoming Meetings</a>
+                </div>
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#homeCarousel" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden" >Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#homeCarousel" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+
+    <section id="current-reads" class="py-5">
+        <div class="container">
+            <h2 class="text-center section-title">Current Reads</h2>
+            <div class="row">
+                <div class="col-md-3 col-sm-6 book-item">
+                    <img src="images/midnight.jpg" alt="Book Cover" class="img-fluid book-cover">
+                    <h5>The Midnight Library</h5>
+                    <p>Matt Haig</p>
+                </div>
+                <div class="col-md-3 col-sm-6 book-item">
+                    <img src="images/Kazuo.jpg" alt="Book Cover" class="img-fluid book-cover">
+                    <h5>Klara and the Sun</h5>
+                    <p>Kazuo Ishiguro</p>
+                </div>
+                <div class="col-md-3 col-sm-6 book-item">
+                    <img src="images/Kristin.jpg" alt="Book Cover" class="img-fluid book-cover">
+                    <h5>The Four Winds</h5>
+                    <p>Kristin Hannah</p>
+                </div>
+                <div class="col-md-3 col-sm-6 book-item">
+                    <img src="images/Hail.jpg" alt="Book Cover" class="img-fluid book-cover">
+                    <h5>Project Hail Mary</h5>
+                    <p>Andy Weir</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="upcoming" class="py-5 bg-light">
+        <div class="container">
+            <h2 class="text-center section-title">Upcoming Meetings</h2>
+            <div class="row">
+                <div class="col-md-4 mb-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">July 15, 2024 - 7:00 PM</h5>
+                            <h6 class="card-subtitle mb-2 text-muted">The Midnight Library</h6>
+                            <p class="card-text">Location: City Library, Room 101</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">August 12, 2024 - 7:00 PM</h5>
+                            <h6 class="card-subtitle mb-2 text-muted">Klara and the Sun</h6>
+                            <p class="card-text">Location: Virtual Meeting</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">September 9, 2024 - 7:00 PM</h5>
+                            <h6 class="card-subtitle mb-2 text-muted">The Four Winds</h6>
+                            <p class="card-text">Location: City Library, Room 101</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="book-of-month" class="py-5">
+        <div class="container">
+            <h2 class="text-center section-title">Book of the Month</h2>
+            <div class="row align-items-center">
+                <div class="col-md-4">
+                    <img src="images/midnight.jpg" alt="Book of the Month Cover" class="img-fluid rounded">
+                </div>
+                <div class="col-md-8">
+                    <h3>The Midnight Library</h3>
+                    <h4>by Matt Haig</h4>
+                    <p class="lead">Between life and death there is a library, and within that library, the shelves go on forever. Every book provides a chance to try another life you could have lived. To see how things would be if you had made other choices...</p>
+                    <p>Join us this month as we explore themes of regret, hope, and the infinite possibilities of life in Matt Haig's thought-provoking novel. Our discussion will delve into the protagonist's journey through the Midnight Library and how it relates to our own lives and choices.</p>
+                    <a href="#" class="btn cta-button">Read More</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="join" class="py-5 bg-light">
+        <div class="container text-center">
+            <h2 class="section-title">Join Our Community</h2>
+            <p class="lead mb-4">Become a part of our vibrant reading community. Share your thoughts, discover new perspectives, and make lasting connections with fellow book lovers.</p>
+            <a href="#" class="btn btn-lg cta-button">Become a Member</a>
+        </div>
+    </section>
+
+    <footer class="text-center py-4">
+        <div class="container">
+            <p>&copy; 2024 Reader's Club. All rights reserved.</p>
+            <div class="social-links mt-3">
+                <a href="#"><i class="fab fa-facebook"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

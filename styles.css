@@ -1,0 +1,92 @@
+:root {
+    --primary-color: #1a5f7a;
+    --secondary-color: #57c5b6;
+    --accent-color: #159895;
+    --bg-color: #f9f9f9;
+    --text-color: #333;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    color: var(--text-color);
+    background-color: var(--bg-color);
+}
+
+.navbar {
+    background-color: var(--primary-color);
+}
+
+.navbar-brand, .nav-link {
+    color: white !important;
+}
+
+.nav-link:hover {
+    color: var(--secondary-color) !important;
+}
+
+.carousel-item {
+    height: 100vh;
+    min-height: 300px;
+    background: no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.carousel-caption {
+    bottom: 270px;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.section-title {
+    color: var(--primary-color);
+    margin-bottom: 40px;
+}
+
+.book-item {
+    margin-bottom: 30px;
+}
+
+.book-cover {
+    width: 150px;
+    height: 225px;
+    object-fit: cover;
+    margin-bottom: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.book-cover:hover {
+    transform: scale(1.05);
+}
+
+.cta-button {
+    background-color: var(--accent-color);
+    color: white;
+    transition: background-color 0.3s ease;
+}
+
+.cta-button:hover {
+    background-color: var(--secondary-color);
+}
+
+footer {
+    background-color: var(--primary-color);
+    color: white;
+    padding: 20px 0;
+}
+
+.social-links a {
+    color: white;
+    font-size: 24px;
+    margin: 0 10px;
+    transition: color 0.3s ease;
+}
+
+.social-links a:hover {
+    color: var(--secondary-color);
+}
